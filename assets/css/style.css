@@ -221,11 +221,15 @@ article img{
         justify-content: space-around;
         border-radius: 30px;
     }
- }
+}    
 
 @media screen and (min-width: 1276px ) {
    article{
         flex-direction: row;
         max-width: 100%;
    }
+   article p{
+        margin-right: 20px;
+    }
+ 
 }
